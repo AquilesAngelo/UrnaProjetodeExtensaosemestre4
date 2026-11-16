@@ -22,3 +22,6 @@ Menu **Mesário → Encerrar votação** (senha definida em `UrnaFrame.SENHA_MES
 ## Estrutura
 `Candidato` (abstrata) → `CandidatoProporcional`, `CandidatoMajoritario` · `Cargo` · `Urna` ·
 `VotoRepositorio` → `VotoRepositorioFirestore`, `VotoRepositorioLocal` · `UrnaFrame` (interface Swing).
+
+##AVISO
+Sem o firebase-chave.json, a urna roda em modo local, sem enviar dados à nuvem.
